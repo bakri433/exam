@@ -1,0 +1,114 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 17px ;
+}
+
+/* small */
+@media (min-width:412px){
+    form{
+        width: 100%;
+        border: none;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .content{
+padding-left: 10px;
+padding-right: 10px;
+    }
+    header nav ul li{
+        padding: 8px;
+    }
+}
+@media (min-width:1000px){
+    form{
+        width: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.295);
+        box-shadow: 0 0 10px rgba(26, 23, 48, .5);
+    }
+    h1{
+        font-size: 40px;
+        font-weight: bolder;
+        color: transparent;
+        background: url(vecteezy_gradient-pick-color-for-background-social-media-post-or_6832439.jpg);
+        -webkit-background-clip: text;
+        background-size: cover;
+
+    }
+    .content{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    header nav ul li a{
+        padding: 27px;
+
+    }
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-image: url(vecteezy_abstract-gradient-pastel-blue-and-purple-background-neon_8617161-1.jpg);]
+min-height: 140px;
+}
+.content{
+
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 140px;
+
+    box-shadow: 0 0 10px rgba(26, 23, 48, .5);
+
+}
+header nav {
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    list-style: none;
+    display: flex;
+  
+
+}
+a{
+    text-decoration: none;
+}
+header nav ul li a {
+    text-decoration:none;
+color: black;
+}
+.login{
+    position: absolute;
+    right: 100px;
+
+}
+.login button{
+    border: 1px solid rgba(0, 0, 0, 0.388);
+    border-radius: 30px;
+    background-color: black;
+    font-size: larger;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: white;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #ddd;
+    width: 100%;
+    height: 150px;
+}
